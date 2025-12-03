@@ -1,0 +1,659 @@
+{
+  "patients": [
+    {
+      "id": "P001",
+      "name": "John Doe",
+      "age": 45,
+      "sex": "male",
+      "conditions": ["Hypertension", "Type 2 Diabetes"],
+      "allergies": ["Penicillin"],
+      "medications": [
+        {"name": "Metformin", "dose": "500 mg", "frequency": "2x/day"},
+        {"name": "Lisinopril", "dose": "10 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "145/92","heart_rate": 92,"temperature": 98.2},
+      "last_visit_date": "2025-01-12"
+    },
+    {
+      "id": "P002",
+      "name": "Sarah Lee",
+      "age": 32,
+      "sex": "female",
+      "conditions": ["Asthma"],
+      "allergies": [],
+      "medications": [
+        {"name": "Albuterol Inhaler", "dose": "2 puffs", "frequency": "PRN"}
+      ],
+      "vitals": {"blood_pressure": "118/78","heart_rate": 76,"temperature": 98.8},
+      "last_visit_date": "2025-02-03"
+    },
+    {
+      "id": "P003",
+      "name": "Michael Smith",
+      "age": 60,
+      "sex": "male",
+      "conditions": ["COPD"],
+      "allergies": ["Sulfa"],
+      "medications": [
+        {"name": "Tiotropium", "dose": "18 mcg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "130/85","heart_rate": 88,"temperature": 99.1},
+      "last_visit_date": "2025-03-15"
+    },
+    {
+      "id": "P004",
+      "name": "Emily Davis",
+      "age": 27,
+      "sex": "female",
+      "conditions": ["Depression"],
+      "allergies": [],
+      "medications": [
+        {"name": "Sertraline", "dose": "50 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "110/70","heart_rate": 72,"temperature": 98.4},
+      "last_visit_date": "2025-04-02"
+    },
+    {
+      "id": "P005",
+      "name": "David Johnson",
+      "age": 50,
+      "sex": "male",
+      "conditions": ["Hyperlipidemia"],
+      "allergies": [],
+      "medications": [
+        {"name": "Atorvastatin", "dose": "20 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "135/88","heart_rate": 80,"temperature": 98.6},
+      "last_visit_date": "2025-05-10"
+    },
+    {
+      "id": "P006",
+      "name": "Sophia Brown",
+      "age": 41,
+      "sex": "female",
+      "conditions": ["Hypothyroidism"],
+      "allergies": ["None"],
+      "medications": [
+        {"name": "Levothyroxine", "dose": "75 mcg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "120/76","heart_rate": 70,"temperature": 98.3},
+      "last_visit_date": "2025-06-18"
+    },
+    {
+      "id": "P007",
+      "name": "James Wilson",
+      "age": 65,
+      "sex": "male",
+      "conditions": ["Arthritis"],
+      "allergies": ["Penicillin"],
+      "medications": [
+        {"name": "Ibuprofen", "dose": "400 mg", "frequency": "PRN"}
+      ],
+      "vitals": {"blood_pressure": "140/90","heart_rate": 78,"temperature": 98.7},
+      "last_visit_date": "2025-07-22"
+    },
+    {
+      "id": "P008",
+      "name": "Olivia Taylor",
+      "age": 36,
+      "sex": "female",
+      "conditions": ["Anxiety"],
+      "allergies": [],
+      "medications": [
+        {"name": "Buspirone", "dose": "10 mg", "frequency": "2x/day"}
+      ],
+      "vitals": {"blood_pressure": "115/75","heart_rate": 74,"temperature": 98.5},
+      "last_visit_date": "2025-08-05"
+    },
+    {
+      "id": "P009",
+      "name": "Daniel Martinez",
+      "age": 54,
+      "sex": "male",
+      "conditions": ["GERD"],
+      "allergies": ["None"],
+      "medications": [
+        {"name": "Omeprazole", "dose": "20 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "128/82","heart_rate": 82,"temperature": 98.9},
+      "last_visit_date": "2025-09-14"
+    },
+    {
+      "id": "P010",
+      "name": "Emma Thomas",
+      "age": 29,
+      "sex": "female",
+      "conditions": ["Asthma", "Allergic Rhinitis"],
+      "allergies": ["Sulfa"],
+      "medications": [
+        {"name": "Albuterol Inhaler", "dose": "2 puffs", "frequency": "PRN"},
+        {"name": "Cetirizine", "dose": "10 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "116/74","heart_rate": 75,"temperature": 98.2},
+      "last_visit_date": "2025-10-01"
+    },
+    {
+      "id": "P011",
+      "name": "Lucas Green",
+      "age": 38,
+      "sex": "male",
+      "conditions": ["Hypertension"],
+      "allergies": [],
+      "medications": [
+        {"name": "Amlodipine", "dose": "5 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "142/90","heart_rate": 85,"temperature": 98.6},
+      "last_visit_date": "2025-01-20"
+    },
+    {
+      "id": "P012",
+      "name": "Grace Hall",
+      "age": 47,
+      "sex": "female",
+      "conditions": ["Type 2 Diabetes"],
+      "allergies": ["Sulfa"],
+      "medications": [
+        {"name": "Metformin", "dose": "500 mg", "frequency": "2x/day"}
+      ],
+      "vitals": {"blood_pressure": "128/82","heart_rate": 78,"temperature": 98.9},
+      "last_visit_date": "2025-02-11"
+    },
+    {
+      "id": "P013",
+      "name": "Henry Adams",
+      "age": 52,
+      "sex": "male",
+      "conditions": ["Hyperlipidemia"],
+      "allergies": [],
+      "medications": [
+        {"name": "Atorvastatin", "dose": "20 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "138/85","heart_rate": 82,"temperature": 98.7},
+      "last_visit_date": "2025-03-03"
+    },
+    {
+      "id": "P014",
+      "name": "Isabella Clark",
+      "age": 29,
+      "sex": "female",
+      "conditions": ["Asthma"],
+      "allergies": [],
+      "medications": [
+        {"name": "Albuterol Inhaler", "dose": "2 puffs", "frequency": "PRN"}
+      ],
+      "vitals": {"blood_pressure": "115/75","heart_rate": 72,"temperature": 98.4},
+      "last_visit_date": "2025-03-22"
+    },
+    {
+      "id": "P015",
+      "name": "Ethan Lewis",
+      "age": 61,
+      "sex": "male",
+      "conditions": ["Arthritis"],
+      "allergies": ["Penicillin"],
+      "medications": [
+        {"name": "Ibuprofen", "dose": "400 mg", "frequency": "PRN"}
+      ],
+      "vitals": {"blood_pressure": "140/88","heart_rate": 80,"temperature": 98.5},
+      "last_visit_date": "2025-04-10"
+    },
+    {
+      "id": "P016",
+      "name": "Mia Walker",
+      "age": 34,
+      "sex": "female",
+      "conditions": ["Anxiety"],
+      "allergies": [],
+      "medications": [
+        {"name": "Buspirone", "dose": "10 mg", "frequency": "2x/day"}
+      ],
+      "vitals": {"blood_pressure": "118/76","heart_rate": 74,"temperature": 98.3},
+      "last_visit_date": "2025-04-28"
+    },
+    {
+      "id": "P017",
+      "name": "Noah Young",
+      "age": 49,
+      "sex": "male",
+      "conditions": ["GERD"],
+      "allergies": [],
+      "medications": [
+        {"name": "Omeprazole", "dose": "20 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "126/80","heart_rate": 79,"temperature": 98.6},
+      "last_visit_date": "2025-05-15"
+    },
+    {
+      "id": "P018",
+      "name": "Ava King",
+      "age": 27,
+      "sex": "female",
+      "conditions": ["Depression"],
+      "allergies": [],
+      "medications": [
+        {"name": "Sertraline", "dose": "50 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "112/72","heart_rate": 70,"temperature": 98.2},
+      "last_visit_date": "2025-06-01"
+    },
+    {
+      "id": "P019",
+      "name": "William Scott",
+      "age": 58,
+      "sex": "male",
+      "conditions": ["COPD"],
+      "allergies": ["Sulfa"],
+      "medications": [
+        {"name": "Tiotropium", "dose": "18 mcg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "132/86","heart_rate": 84,"temperature": 99.0},
+      "last_visit_date": "2025-06-20"
+    },
+    {
+      "id": "P020",
+      "name": "Charlotte Baker",
+      "age": 42,
+      "sex": "female",
+      "conditions": ["Hypothyroidism"],
+      "allergies": [],
+      "medications": [
+        {"name": "Levothyroxine", "dose": "75 mcg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "119/77","heart_rate": 71,"temperature": 98.4},
+      "last_visit_date": "2025-07-05"
+    },
+    {
+      "id": "P021",
+      "name": "Benjamin Reed",
+      "age": 44,
+      "sex": "male",
+      "conditions": ["Hypertension"],
+      "allergies": [],
+      "medications": [
+        {"name": "Amlodipine", "dose": "5 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "140/88","heart_rate": 83,"temperature": 98.6},
+      "last_visit_date": "2025-07-18"
+    },
+    {
+      "id": "P022",
+      "name": "Ella Rivera",
+      "age": 31,
+      "sex": "female",
+      "conditions": ["Asthma"],
+      "allergies": ["Sulfa"],
+      "medications": [
+        {"name": "Albuterol Inhaler", "dose": "2 puffs", "frequency": "PRN"}
+      ],
+      "vitals": {"blood_pressure": "116/74","heart_rate": 75,"temperature": 98.4},
+      "last_visit_date": "2025-07-29"
+    },
+    {
+      "id": "P023",
+      "name": "Matthew Perez",
+      "age": 53,
+      "sex": "male",
+      "conditions": ["Type 2 Diabetes"],
+      "allergies": [],
+      "medications": [
+        {"name": "Metformin", "dose": "500 mg", "frequency": "2x/day"}
+      ],
+      "vitals": {"blood_pressure": "132/84","heart_rate": 80,"temperature": 98.9},
+      "last_visit_date": "2025-08-10"
+    },
+    {
+      "id": "P024",
+      "name": "Chloe Edwards",
+      "age": 26,
+      "sex": "female",
+      "conditions": ["Depression"],
+      "allergies": [],
+      "medications": [
+        {"name": "Sertraline", "dose": "50 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "110/70","heart_rate": 72,"temperature": 98.2},
+      "last_visit_date": "2025-08-22"
+    },
+    {
+      "id": "P025",
+      "name": "Jack Morris",
+      "age": 59,
+      "sex": "male",
+      "conditions": ["Hyperlipidemia"],
+      "allergies": ["Penicillin"],
+      "medications": [
+        {"name": "Atorvastatin", "dose": "20 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "136/86","heart_rate": 81,"temperature": 98.7},
+      "last_visit_date": "2025-09-05"
+    },
+    {
+      "id": "P026",
+      "name": "Amelia Foster",
+      "age": 40,
+      "sex": "female",
+      "conditions": ["Hypothyroidism"],
+      "allergies": [],
+      "medications": [
+        {"name": "Levothyroxine", "dose": "75 mcg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "118/76","heart_rate": 70,"temperature": 98.3},
+      "last_visit_date": "2025-09-19"
+    },
+    {
+      "id": "P027",
+      "name": "Logan Bell",
+      "age": 62,
+      "sex": "male",
+      "conditions": ["Arthritis"],
+      "allergies": [],
+      "medications": [
+        {"name": "Ibuprofen", "dose": "400 mg", "frequency": "PRN"}
+      ],
+      "vitals": {"blood_pressure": "142/90","heart_rate": 79,"temperature": 98.6},
+      "last_visit_date": "2025-10-02"
+    },
+    {
+      "id": "P028",
+      "name": "Harper Ward",
+      "age": 35,
+      "sex": "female",
+      "conditions": ["Anxiety"],
+      "allergies": [],
+      "medications": [
+        {"name": "Buspirone", "dose": "10 mg", "frequency": "2x/day"}
+      ],
+      "vitals": {"blood_pressure": "115/75","heart_rate": 73,"temperature": 98.5},
+      "last_visit_date": "2025-10-15"
+    },
+    {
+      "id": "P029",
+      "name": "Joseph Cox",
+      "age": 55,
+      "sex": "male",
+      "conditions": ["GERD"],
+      "allergies": ["None"],
+      "medications": [
+        {"name": "Omeprazole", "dose": "20 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "128/82","heart_rate": 82,"temperature": 98.9},
+      "last_visit_date": "2025-10-28"
+    },
+    {
+      "id": "P030",
+      "name": "Scarlett Torres",
+      "age": 28,
+      "sex": "female",
+      "conditions": ["Asthma", "Allergic Rhinitis"],
+      "allergies": ["Sulfa"],
+      "medications": [
+        {"name": "Albuterol Inhaler", "dose": "2 puffs", "frequency": "PRN"},
+        {"name": "Cetirizine", "dose": "10 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "116/74","heart_rate": 75,"temperature": 98.2},
+      "last_visit_date": "2025-11-05"
+    },
+    {
+      "id": "P031",
+      "name": "Dylan Hughes",
+      "age": 46,
+      "sex": "male",
+      "conditions": ["Hypertension"],
+      "allergies": [],
+      "medications": [
+        {"name": "Amlodipine", "dose": "5 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "141/89","heart_rate": 84,"temperature": 98.7},
+      "last_visit_date": "2025-11-12"
+    },
+    {
+      "id": "P032",
+      "name": "Victoria Flores",
+      "age": 33,
+      "sex": "female",
+      "conditions": ["Depression"],
+      "allergies": [],
+      "medications": [
+        {"name": "Sertraline", "dose": "50 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "112/72","heart_rate": 71,"temperature": 98.4},
+      "last_visit_date": "2025-11-20"
+    },
+    {
+      "id": "P033",
+      "name": "Andrew Bennett",
+      "age": 57,
+      "sex": "male",
+      "conditions": ["COPD"],
+      "allergies": ["Sulfa"],
+      "medications": [
+        {"name": "Tiotropium", "dose": "18 mcg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "134/86","heart_rate": 85,"temperature": 99.0},
+      "last_visit_date": "2025-11-25"
+    },
+    {
+      "id": "P034",
+      "name": "Lily Simmons",
+      "age": 39,
+      "sex": "female",
+      "conditions": ["Hypothyroidism"],
+      "allergies": [],
+      "medications": [
+        {"name": "Levothyroxine", "dose": "75 mcg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "118/76","heart_rate": 70,"temperature": 98.3},
+      "last_visit_date": "2025-11-26"
+    },
+   {
+      "id": "P035",
+      "name": "Ryan Foster",
+      "age": 63,
+      "sex": "male",
+      "conditions": ["Arthritis"],
+      "allergies": ["Penicillin"],
+      "medications": [
+        {"name": "Ibuprofen", "dose": "400 mg", "frequency": "PRN"}
+      ],
+      "vitals": {"blood_pressure": "143/91","heart_rate": 79,"temperature": 98.6},
+      "last_visit_date": "2025-11-27"
+    },
+    {
+      "id": "P036",
+      "name": "Zoe Mitchell",
+      "age": 30,
+      "sex": "female",
+      "conditions": ["Anxiety"],
+      "allergies": [],
+      "medications": [
+        {"name": "Buspirone", "dose": "10 mg", "frequency": "2x/day"}
+      ],
+      "vitals": {"blood_pressure": "117/74","heart_rate": 73,"temperature": 98.5},
+      "last_visit_date": "2025-11-28"
+    },
+    {
+      "id": "P037",
+      "name": "Nathan Ross",
+      "age": 55,
+      "sex": "male",
+      "conditions": ["GERD"],
+      "allergies": [],
+      "medications": [
+        {"name": "Omeprazole", "dose": "20 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "129/83","heart_rate": 81,"temperature": 98.8},
+      "last_visit_date": "2025-11-29"
+    },
+    {
+      "id": "P038",
+      "name": "Hannah Price",
+      "age": 28,
+      "sex": "female",
+      "conditions": ["Asthma"],
+      "allergies": ["Sulfa"],
+      "medications": [
+        {"name": "Albuterol Inhaler", "dose": "2 puffs", "frequency": "PRN"}
+      ],
+      "vitals": {"blood_pressure": "115/75","heart_rate": 74,"temperature": 98.4},
+      "last_visit_date": "2025-11-30"
+    },
+    {
+      "id": "P039",
+      "name": "Samuel Ward",
+      "age": 47,
+      "sex": "male",
+      "conditions": ["Type 2 Diabetes"],
+      "allergies": [],
+      "medications": [
+        {"name": "Metformin", "dose": "500 mg", "frequency": "2x/day"}
+      ],
+      "vitals": {"blood_pressure": "133/85","heart_rate": 82,"temperature": 98.9},
+      "last_visit_date": "2025-12-01"
+    },
+    {
+      "id": "P040",
+      "name": "Lily Carter",
+      "age": 36,
+      "sex": "female",
+      "conditions": ["Depression"],
+      "allergies": [],
+      "medications": [
+        {"name": "Sertraline", "dose": "50 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "111/71","heart_rate": 70,"temperature": 98.3},
+      "last_visit_date": "2025-12-02"
+    },
+    {
+      "id": "P041",
+      "name": "Christopher Evans",
+      "age": 59,
+      "sex": "male",
+      "conditions": ["COPD"],
+      "allergies": ["Sulfa"],
+      "medications": [
+        {"name": "Tiotropium", "dose": "18 mcg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "135/87","heart_rate": 84,"temperature": 99.0},
+      "last_visit_date": "2025-12-03"
+    },
+    {
+      "id": "P042",
+      "name": "Sophia Ramirez",
+      "age": 41,
+      "sex": "female",
+      "conditions": ["Hypothyroidism"],
+      "allergies": [],
+      "medications": [
+        {"name": "Levothyroxine", "dose": "75 mcg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "119/77","heart_rate": 71,"temperature": 98.4},
+      "last_visit_date": "2025-12-04"
+    },
+    {
+      "id": "P043",
+      "name": "Anthony Brooks",
+      "age": 64,
+      "sex": "male",
+      "conditions": ["Arthritis"],
+      "allergies": ["Penicillin"],
+      "medications": [
+        {"name": "Ibuprofen", "dose": "400 mg", "frequency": "PRN"}
+      ],
+      "vitals": {"blood_pressure": "144/92","heart_rate": 80,"temperature": 98.7},
+      "last_visit_date": "2025-12-05"
+    },
+    {
+      "id": "P044",
+      "name": "Grace Kelly",
+      "age": 29,
+      "sex": "female",
+      "conditions": ["Anxiety"],
+      "allergies": [],
+      "medications": [
+        {"name": "Buspirone", "dose": "10 mg", "frequency": "2x/day"}
+      ],
+      "vitals": {"blood_pressure": "116/74","heart_rate": 73,"temperature": 98.5},
+      "last_visit_date": "2025-12-06"
+    },
+    {
+      "id": "P045",
+      "name": "Daniel Cooper",
+      "age": 52,
+      "sex": "male",
+      "conditions": ["GERD"],
+      "allergies": [],
+      "medications": [
+        {"name": "Omeprazole", "dose": "20 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "127/81","heart_rate": 80,"temperature": 98.8},
+      "last_visit_date": "2025-12-07"
+    },
+    {
+      "id": "P046",
+      "name": "Olivia Morgan",
+      "age": 34,
+      "sex": "female",
+      "conditions": ["Asthma", "Allergic Rhinitis"],
+      "allergies": ["Sulfa"],
+      "medications": [
+        {"name": "Albuterol Inhaler", "dose": "2 puffs", "frequency": "PRN"},
+        {"name": "Cetirizine", "dose": "10 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "117/75","heart_rate": 74,"temperature": 98.2},
+      "last_visit_date": "2025-12-08"
+    },
+    {
+      "id": "P047",
+      "name": "Jacob Rivera",
+      "age": 48,
+      "sex": "male",
+      "conditions": ["Hypertension"],
+      "allergies": [],
+      "medications": [
+        {"name": "Amlodipine", "dose": "5 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "142/89","heart_rate": 83,"temperature": 98.6},
+      "last_visit_date": "2025-12-09"
+    },
+    {
+      "id": "P048",
+      "name": "Emma Phillips",
+      "age": 37,
+      "sex": "female",
+      "conditions": ["Depression"],
+      "allergies": [],
+      "medications": [
+        {"name": "Sertraline", "dose": "50 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "113/73","heart_rate": 71,"temperature": 98.4},
+      "last_visit_date": "2025-12-10"
+    },
+    {
+      "id": "P049",
+      "name": "Joshua Turner",
+      "age": 56,
+      "sex": "male",
+      "conditions": ["COPD"],
+      "allergies": ["Sulfa"],
+      "medications": [
+        {"name": "Tiotropium", "dose": "18 mcg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "136/88","heart_rate": 85,"temperature": 99.0},
+      "last_visit_date": "2025-12-11"
+    },
+    {
+      "id": "P050",
+      "name": "Zoe Turner",
+      "age": 33,
+      "sex": "female",
+      "conditions": ["Asthma", "Allergic Rhinitis"],
+      "allergies": ["Penicillin"],
+      "medications": [
+        {"name": "Albuterol Inhaler", "dose": "2 puffs", "frequency": "PRN"},
+        {"name": "Cetirizine", "dose": "10 mg", "frequency": "1x/day"}
+      ],
+      "vitals": {"blood_pressure": "117/75","heart_rate": 73,"temperature": 98.5},
+      "last_visit_date": "2025-11-01"
+    }
+  ]
+}
