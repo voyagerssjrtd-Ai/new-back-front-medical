@@ -1,0 +1,85 @@
+====== SMART INVENTORY AGENT OUTPUT ======
+```json
+{
+  "sku": "SKU101",
+  "forecast_horizon_months": 12,
+  "model_used": "llm_rag_hybrid_forecaster",
+  "data_summary": {
+    "total_months_available": 82,
+    "time_range": "January 2019 - October 2025",
+    "average_monthly_sales": 17.3,
+    "standard_deviation_sales": 3.8,
+    "sales_trend": "CAGR of approximately 7.5% over the historical period",
+    "seasonality": "Identifiable with slight peaks in Q1 and Q3 annually",
+    "missing_periods": []
+  },
+  "preprocessing_log": [
+    "Validated data; no missing periods detected",
+    "Detected clear monthly seasonality with fluctuations in Q1 and Q3",
+    "Trend analysis confirms a gradual rise in sales volume"
+  ],
+  "insight_summary": [
+    {
+      "source_id": "1",
+      "claim": "Rural sales growth decreased from 8.4% to 7.7% but still outpaced urban growth for the seventh consecutive quarter.",
+      "mapped_effect": "+5% demand lift expected in rural markets due to affordability and pack size preferences",  
+      "confidence": 0.92
+    },
+    {
+      "source_id": "1",
+      "claim": "Sales growth in the Indian FMCG sector slowed to 5.4% in volume during the September quarter due to GST disruptions.",
+      "mapped_effect": "-2% demand impact expected in urban areas from GST rate changes",
+      "confidence": 0.88
+    }
+  ],
+  "forecast_table": [
+    {"month": "2025-11", "baseline": 22, "upside": 24, "downside": 20},
+    {"month": "2025-12", "baseline": 23, "upside": 26, "downside": 21},
+    {"month": "2026-01", "baseline": 24, "upside": 27, "downside": 22},
+    {"month": "2026-02", "baseline": 24, "upside": 28, "downside": 21},
+    {"month": "2026-03", "baseline": 25, "upside": 29, "downside": 22},
+    {"month": "2026-04", "baseline": 24, "upside": 27, "downside": 22},
+    {"month": "2026-05", "baseline": 23, "upside": 26, "downside": 21},
+    {"month": "2026-06", "baseline": 23, "upside": 27, "downside": 20},
+    {"month": "2026-07", "baseline": 22, "upside": 26, "downside": 19},
+    {"month": "2026-08", "baseline": 24, "upside": 28, "downside": 21},
+    {"month": "2026-09", "baseline": 23, "upside": 27, "downside": 20},
+    {"month": "2026-10", "baseline": 24, "upside": 28, "downside": 21}
+  ],
+  "scenarios": {
+    "baseline_scenario": "12 months of sales forecast projecting a continuation of the historical growth trend along with moderate adjustments from rural uplift and slight GST-driven urban slowdown.",
+    "upside_scenario": "Considers higher-than-expected rural growth and accelerated urban recovery, leading to a 10-15% overperformance against baseline in favorable months.",
+    "downside_scenario": "Assumes stronger GST disruption coupled with a rural growth plateau, causing a 10-15% underperformance against baseline in weaker months."
+  },
+  "explainability": {
+    "key_factors": [
+      { "factor": "Rural market growth", "impact": "Positive due to affordability and smaller pack preferences" },  
+      { "factor": "Urban GST disruptions", "impact": "Negative during Q3 due to tax changes" },
+      { "factor": "Seasonality", "impact": "Moderate increase in Q1 and Q3 driven by historical consumer behavior" }
+    ]
+  },
+  "recommendations": [
+    {
+      "source_id": "1",
+      "recommendation": "Target rural affordability and pack size optimizations to capitalize on demand lift."      
+    },
+    {
+      "source_id": "1",
+      "recommendation": "Allocate marketing budgets to urban sectors post-GST stabilization to aid recovery."       
+    },
+    {
+      "source_id": "1",
+      "recommendation": "Monitor Q1 and Q3 seasonal upticks to optimize inventory planning for peak months."        
+    }
+  ],
+  "error": null
+}
+```
+
+**EXECUTIVE SUMMARY:**
+- SKU101 projected baseline sales for 2026 are 24 units per month on average, with adjustments for rural affordability growth (+5%) and urban GST disruptions (-2%).
+- Actionable Recommendations:
+  1. Target rural affordability and pack size optimizations to capitalize on demand lift (source_id: 1).
+  2. Redirect marketing efforts to urban areas post-GST stabilization for better performance (source_id: 1).        
+  3. Use past seasonality trends (Q1/Q3 peaks) to optimize production and inventory (source_id: 1).
+==========================================

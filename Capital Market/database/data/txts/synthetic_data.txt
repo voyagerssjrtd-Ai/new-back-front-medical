@@ -1,0 +1,524 @@
+[
+  {
+    "trade_id": "T100001",
+    "instrument": "AAPL",
+    "isin": "US0378331005",
+    "trade_date": "2025-03-01",
+    "settlement_date": "2025-03-03",
+    "buyer_lei": "549300ABC123G8LY1M10",
+    "seller_lei": "213800XYZ789B1KP4T90",
+    "price": 189.52,
+    "quantity": 150,
+    "trade_type": "BUY",
+    "venue": "NASDAQ"
+  },
+  {
+    "trade_id": "T100002",
+    "instrument": "TSLA",
+    "isin": "US88160R1014",
+    "trade_date": "2025-03-01",
+    "settlement_date": "2025-03-04",
+    "buyer_lei": "213800XYZ789B1KP4T90",
+    "seller_lei": "7ZW0H3557EJ8EZVQY350",
+    "price": 230.18,
+    "quantity": 220,
+    "trade_type": "SELL",
+    "venue": "NYSE"
+  },
+  {
+    "trade_id": "T100003",
+    "instrument": "GOOGL",
+    "isin": "US02079K3059",
+    "trade_date": "2025-03-02",
+    "settlement_date": "2025-03-05",
+    "buyer_lei": "549300AAA111B8LY1A11",
+    "seller_lei": "213800BBB222C1KP4B22",
+    "price": 129.24,
+    "quantity": 350,
+    "trade_type": "BUY",
+    "venue": "NASDAQ"
+  },
+  {
+    "trade_id": "T100004",
+    "instrument": "AMZN",
+    "isin": "US0231351067",
+    "trade_date": "2025-03-02",
+    "settlement_date": "2025-03-04",
+    "buyer_lei": "213800CCC333D0LMZ9R44",
+    "seller_lei": "549300DDD444E7GK1L55",
+    "price": 174.11,
+    "quantity": 90,
+    "trade_type": "SELL",
+    "venue": "NASDAQ"
+  },
+  {
+    "trade_id": "T100005",
+    "instrument": "MSFT",
+    "isin": "US5949181045",
+    "trade_date": "2025-03-03",
+    "settlement_date": "2025-03-06",
+    "buyer_lei": "213800EEE555F8LMZ8B66",
+    "seller_lei": "549300FFF666G9KJ1J77",
+    "price": 402.17,
+    "quantity": 120,
+    "trade_type": "BUY",
+    "venue": "NASDAQ"
+  },
+
+  {
+    "trade_id": "T100006",
+    "instrument": "IBM",
+    "isin": "US4592001014",
+    "trade_date": "2025-03-03",
+    "settlement_date": "2025-03-05",
+    "buyer_lei": "549300GGG777H8LY1F88",
+    "seller_lei": "213800HHH888J1KP4K99",
+    "price": 142.55,
+    "quantity": 160,
+    "trade_type": "BUY",
+    "venue": "NYSE"
+  },
+  {
+    "trade_id": "T100007",
+    "instrument": "META",
+    "isin": "US30303M1027",
+    "trade_date": "2025-03-04",
+    "settlement_date": "2025-03-06",
+    "buyer_lei": "213800III999K2LMZ7T12",
+    "seller_lei": "549300JJJ000L3KJ9V23",
+    "price": 488.12,
+    "quantity": 75,
+    "trade_type": "SELL",
+    "venue": "NASDAQ"
+  },
+  {
+    "trade_id": "T100008",
+    "instrument": "NFLX",
+    "isin": "US64110L1061",
+    "trade_date": "2025-03-04",
+    "settlement_date": "2025-03-07",
+    "buyer_lei": "549300KKK111M4LY1A34",
+    "seller_lei": "213800LLL222N5KP4D45",
+    "price": 573.33,
+    "quantity": 40,
+    "trade_type": "BUY",
+    "venue": "NASDAQ"
+  },
+  {
+    "trade_id": "T100009",
+    "instrument": "NVDA",
+    "isin": "US67066G1040",
+    "trade_date": "2025-03-05",
+    "settlement_date": "2025-03-06",
+    "buyer_lei": "213800MMM333P6LMZ6C56",
+    "seller_lei": "549300NNN444Q7KJ5X67",
+    "price": 875.21,
+    "quantity": 30,
+    "trade_type": "BUY",
+    "venue": "NASDAQ"
+  },
+
+  {
+    "trade_id": "T100010",
+    "instrument": "AMD",
+    "isin": "US0079031078",
+    "trade_date": "2025-03-05",
+    "settlement_date": "2025-03-07",
+    "buyer_lei": "549300OOO555R8LY1Q78",
+    "seller_lei": "213800PPP666S9KP4V89",
+    "price": 201.12,
+    "quantity": 140,
+    "trade_type": "SELL",
+    "venue": "NASDAQ"
+  },
+
+  {
+    "trade_id": "T100011",
+    "instrument": "INTC",
+    "isin": "US4581401001",
+    "trade_date": "2025-03-06",
+    "settlement_date": "2025-03-10",
+    "buyer_lei": "213800QQQ777T0LMZ5X90",
+    "seller_lei": "549300RRR888U1KJ2B01",
+    "price": 43.90,
+    "quantity": 500,
+    "trade_type": "BUY",
+    "venue": "NASDAQ"
+  },
+
+  {
+    "trade_id": "T100012",
+    "instrument": "BRK-B",
+    "isin": "US0846707026",
+    "trade_date": "2025-03-06",
+    "settlement_date": "2025-03-09",
+    "buyer_lei": "549300SSS999V2LY1N12",
+    "seller_lei": "213800TTT000W3KP4F23",
+    "price": 413.25,
+    "quantity": 60,
+    "trade_type": "SELL",
+    "venue": "NYSE"
+  },
+
+  {
+    "trade_id": "T100013",
+    "instrument": "SPY",
+    "isin": "US78462F1030",
+    "trade_date": "2025-03-07",
+    "settlement_date": "2025-03-11",
+    "buyer_lei": "549300UUU111X4LY1D34",
+    "seller_lei": "213800VVV222Y5KP4B45",
+    "price": 520.44,
+    "quantity": 250,
+    "trade_type": "BUY",
+    "venue": "ARCA"
+  },
+
+  {
+    "trade_id": "T100014",
+    "instrument": "QQQ",
+    "isin": "US46090E1038",
+    "trade_date": "2025-03-07",
+    "settlement_date": "2025-03-10",
+    "buyer_lei": "213800WWW333Z6LMZ4E56",
+    "seller_lei": "549300XXX444A7KJ8N67",
+    "price": 432.11,
+    "quantity": 300,
+    "trade_type": "SELL",
+    "venue": "ARCA"
+  },
+
+  {
+    "trade_id": "T100015",
+    "instrument": "GLD",
+    "isin": "US78463V1070",
+    "trade_date": "2025-03-08",
+    "settlement_date": "2025-03-11",
+    "buyer_lei": "549300YYY555B8LY1H78",
+    "seller_lei": "213800ZZZ666C9KP4N89",
+    "price": 198.55,
+    "quantity": 90,
+    "trade_type": "BUY",
+    "venue": "ARCA"
+  },
+
+  {
+    "trade_id": "T100016",
+    "instrument": "TLT",
+    "isin": "US4642874320",
+    "trade_date": "2025-03-09",
+    "settlement_date": "2025-03-12",
+    "buyer_lei": "213800AAA777D0LMZ3X90",
+    "seller_lei": "549300BBB888E1KJ2B01",
+    "price": 101.20,
+    "quantity": 600,
+    "trade_type": "BUY",
+    "venue": "ARCA"
+  },
+
+  {
+    "trade_id": "T100017",
+    "instrument": "10Y Treasury",
+    "isin": "US912828Z781",
+    "trade_date": "2025-03-10",
+    "settlement_date": "2025-03-12",
+    "buyer_lei": "213800CCC999F1LMZ2G12",
+    "seller_lei": "549300DDD000G2KJ1H23",
+    "price": 99.75,
+    "quantity": 1000,
+    "trade_type": "BUY",
+    "venue": "CME"
+  },
+
+  {
+    "trade_id": "T100018",
+    "instrument": "EUR/USD FUT",
+    "isin": "EU0009652759",
+    "trade_date": "2025-03-10",
+    "settlement_date": "2025-03-13",
+    "buyer_lei": "549300EEE111H3LY1J34",
+    "seller_lei": "213800FFF222I4KP4K45",
+    "price": 1.0824,
+    "quantity": 50,
+    "trade_type": "SELL",
+    "venue": "CME"
+  },
+
+  {
+    "trade_id": "T100019",
+    "instrument": "GBP/USD FUT",
+    "isin": "EU0009652783",
+    "trade_date": "2025-03-11",
+    "settlement_date": "2025-03-14",
+    "buyer_lei": "213800GGG333J6LMZ1K56",
+    "seller_lei": "549300HHH444K7KJ4L67",
+    "price": 1.2666,
+    "quantity": 70,
+    "trade_type": "BUY",
+    "venue": "CME"
+  },
+
+  {
+    "trade_id": "T100020",
+    "instrument": "USO",
+    "isin": "US91232N1081",
+    "trade_date": "2025-03-11",
+    "settlement_date": "2025-03-13",
+    "buyer_lei": "549300III555L8LY1M78",
+    "seller_lei": "213800JJJ666M9KP4V89",
+    "price": 70.12,
+    "quantity": 180,
+    "trade_type": "SELL",
+    "venue": "ARCA"
+  },
+
+  {
+    "trade_id": "T100021",
+    "instrument": "BND",
+    "isin": "US9219378356",
+    "trade_date": "2025-03-11",
+    "settlement_date": "2025-03-14",
+    "buyer_lei": "213800KKK777N0LMZ0X90",
+    "seller_lei": "549300LLL888O1KJ2B01",
+    "price": 76.33,
+    "quantity": 420,
+    "trade_type": "BUY",
+    "venue": "ARCA"
+  },
+
+  {
+    "trade_id": "T100022",
+    "instrument": "VTI",
+    "isin": "US9229087690",
+    "trade_date": "2025-03-12",
+    "settlement_date": "2025-03-14",
+    "buyer_lei": "549300MMM999P2LY1C12",
+    "seller_lei": "213800NNN000Q3KP4D23",
+    "price": 261.40,
+    "quantity": 200,
+    "trade_type": "SELL",
+    "venue": "ARCA"
+  },
+
+  {
+    "trade_id": "T100023",
+    "instrument": "EFA",
+    "isin": "US4642874650",
+    "trade_date": "2025-03-12",
+    "settlement_date": "2025-03-17",
+    "buyer_lei": "213800OOO111R4LMZ9A34",
+    "seller_lei": "549300PPP222S5KJ7B45",
+    "price": 81.22,
+    "quantity": 350,
+    "trade_type": "BUY",
+    "venue": "ARCA"
+  },
+
+  {
+    "trade_id": "T100024",
+    "instrument": "EEM",
+    "isin": "US4642872340",
+    "trade_date": "2025-03-13",
+    "settlement_date": "2025-03-17",
+    "buyer_lei": "549300QQQ333T6LY1D56",
+    "seller_lei": "213800RRR444U7KP4E67",
+    "price": 41.50,
+    "quantity": 700,
+    "trade_type": "SELL",
+    "venue": "ARCA"
+  },
+
+  {
+    "trade_id": "T100025",
+    "instrument": "XOM",
+    "isin": "US30231G1022",
+    "trade_date": "2025-03-13",
+    "settlement_date": "2025-03-18",
+    "buyer_lei": "213800SSS555V8LMZ7F78",
+    "seller_lei": "549300TTT666W9KJ9G89",
+    "price": 119.70,
+    "quantity": 500,
+    "trade_type": "BUY",
+    "venue": "NYSE"
+  },
+
+  {
+    "trade_id": "T100026",
+    "instrument": "CVX",
+    "isin": "US1667641005",
+    "trade_date": "2025-03-14",
+    "settlement_date": "2025-03-18",
+    "buyer_lei": "549300UUU777X0LY1H90",
+    "seller_lei": "213800VVV888Y1KP4J01",
+    "price": 152.45,
+    "quantity": 300,
+    "trade_type": "SELL",
+    "venue": "NYSE"
+  },
+
+  {
+    "trade_id": "T100027",
+    "instrument": "BABA",
+    "isin": "US01609W1027",
+    "trade_date": "2025-03-14",
+    "settlement_date": "2025-03-17",
+    "buyer_lei": "213800WWW999Z2LMZ8K12",
+    "seller_lei": "549300XXX000A3KJ1L23",
+    "price": 78.33,
+    "quantity": 600,
+    "trade_type": "BUY",
+    "venue": "NYSE"
+  },
+
+  {
+    "trade_id": "T100028",
+    "instrument": "ORCL",
+    "isin": "US68389X1054",
+    "trade_date": "2025-03-15",
+    "settlement_date": "2025-03-19",
+    "buyer_lei": "549300YYY111B4LY1B34",
+    "seller_lei": "213800ZZZ222C5KP4M45",
+    "price": 123.60,
+    "quantity": 350,
+    "trade_type": "SELL",
+    "venue": "NYSE"
+  },
+
+  {
+    "trade_id": "T100029",
+    "instrument": "ADBE",
+    "isin": "US00724F1012",
+    "trade_date": "2025-03-15",
+    "settlement_date": "2025-03-18",
+    "buyer_lei": "213800AAA333D6LMZ3N56",
+    "seller_lei": "549300BBB444E7KJ4P67",
+    "price": 612.90,
+    "quantity": 80,
+    "trade_type": "BUY",
+    "venue": "NASDAQ"
+  },
+
+  {
+    "trade_id": "T100030",
+    "instrument": "CRM",
+    "isin": "US79466L3024",
+    "trade_date": "2025-03-16",
+    "settlement_date": "2025-03-20",
+    "buyer_lei": "549300CCC555F8LY1C78",
+    "seller_lei": "213800DDD666G9KP4Q89",
+    "price": 289.11,
+    "quantity": 210,
+    "trade_type": "SELL",
+    "venue": "NYSE"
+  },
+
+  {
+    "trade_id": "T100031",
+    "instrument": "JPM",
+    "isin": "US46625H1005",
+    "trade_date": "2025-03-16",
+    "settlement_date": "2025-03-18",
+    "buyer_lei": "213800EEE777H0LMZ1X90",
+    "seller_lei": "549300FFF888I1KJ2Z01",
+    "price": 189.10,
+    "quantity": 500,
+    "trade_type": "BUY",
+    "venue": "NYSE"
+  },
+
+  {
+    "trade_id": "T100032",
+    "instrument": "BAC",
+    "isin": "US0605051046",
+    "trade_date": "2025-03-17",
+    "settlement_date": "2025-03-20",
+    "buyer_lei": "549300GGG999J2LY1S12",
+    "seller_lei": "213800HHH000K3KP4F23",
+    "price": 41.75,
+    "quantity": 800,
+    "trade_type": "SELL",
+    "venue": "NYSE"
+  },
+
+  {
+    "trade_id": "T100033",
+    "instrument": "WMT",
+    "isin": "US9311421039",
+    "trade_date": "2025-03-17",
+    "settlement_date": "2025-03-21",
+    "buyer_lei": "213800III111L4LMZ4G34",
+    "seller_lei": "549300JJJ222M5KJ7H45",
+    "price": 62.11,
+    "quantity": 300,
+    "trade_type": "BUY",
+    "venue": "NYSE"
+  },
+
+  {
+    "trade_id": "T100034",
+    "instrument": "KO",
+    "isin": "US1912161007",
+    "trade_date": "2025-03-17",
+    "settlement_date": "2025-03-19",
+    "buyer_lei": "549300KKK333N6LY1J56",
+    "seller_lei": "213800LLL444O7KP4K67",
+    "price": 59.50,
+    "quantity": 900,
+    "trade_type": "SELL",
+    "venue": "NYSE"
+  },
+
+  {
+    "trade_id": "T100035",
+    "instrument": "PEP",
+    "isin": "US7134481081",
+    "trade_date": "2025-03-18",
+    "settlement_date": "2025-03-21",
+    "buyer_lei": "213800MMM555P8LMZ9L78",
+    "seller_lei": "549300NNN666Q9KJ8M89",
+    "price": 172.44,
+    "quantity": 250,
+    "trade_type": "BUY",
+    "venue": "NASDAQ"
+  },
+
+  {
+    "trade_id": "T100036",
+    "instrument": "ABNB",
+    "isin": "US0090661010",
+    "trade_date": "2025-03-18",
+    "settlement_date": "2025-03-20",
+    "buyer_lei": "549300OOO777R0LY1N90",
+    "seller_lei": "213800PPP888S1KP4P01",
+    "price": 149.12,
+    "quantity": 150,
+    "trade_type": "SELL",
+    "venue": "NASDAQ"
+  },
+
+  {
+    "trade_id": "T100037",
+    "instrument": "SHOP",
+    "isin": "CA82509L1076",
+    "trade_date": "2025-03-19",
+    "settlement_date": "2025-03-21",
+    "buyer_lei": "213800QQQ999T2LMZ3Q12",
+    "seller_lei": "549300RRR000U3KJ4R23",
+    "price": 89.50,
+    "quantity": 600,
+    "trade_type": "BUY",
+    "venue": "NYSE"
+  },
+
+  {
+    "trade_id": "T100038",
+    "instrument": "NIO",
+    "isin": "US62914V1061",
+    "trade_date": "2025-03-19",
+    "settlement_date": "2025-03-24",
+    "buyer_lei": "549300SSS111V4LY1Z34",
+    "seller_lei": "213800TTT222W5KP4M45",
+    "price": 5.77,
+    "quantity": 1000,
+    "trade_type": "SELL",
+    "ven

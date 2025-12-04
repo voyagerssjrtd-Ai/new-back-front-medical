@@ -1,0 +1,11 @@
+You are the developer and you are participating hackathon. this is the usage which I given. Understand the use case and analyze the use case. give the plan of action. According to that devlop the code. prepare synthetic data what you want for that. 
+
+Multiagent Generative AI System for Automated Regulatory Compliance Reporting in Capital market. 
+
+Problem : Capital market firms face complex and evolving regulatory reporting requirements that demand significant manual effort and expert Knowledge. Errors or delays in compliance reporting can lead to penalties and reputational damage. This use case focuses on creating multiple generative AI agents that collaboratively extract relevant transaction data, interpret regulatory rules, and generate comprehensive compliance reports automatically. The system should handle diverse data inputs and produce reports aligned with regulatory standards efficiently 
+
+Data Requirement : Transaction logs and trade records from capital markets in structured formats such as JSON or XML; up-to data regulatory frameworks and reporting guidelines document in text or pdf; sample compliance reports for bench marketing; meta describing transaction type,dates, parties involved and financial instrument details. (feel free to generate synthetic data as well from the provided access) 
+
+Expected Output : Automated generation of compliance reports in required regulatory formats(eg., XBRL,PDF); a multi-agent workflow visualization demonstrating task delegation and collaboration; error and anomaly detection logs; a summary dashboard showing compliance status and report submission readiness; comprehensive documentation on system architecture and usage. Be creative to go beyond as you solve the above needs
+
+After Analyzing implement the python code by using the LLM, RAG, Vector Chroma DB(if required), use langgraph structure if you want. Create complete flow front end angular to backend

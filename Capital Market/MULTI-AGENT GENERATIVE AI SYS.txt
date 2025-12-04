@@ -1,0 +1,63 @@
+🎯 1. MULTI-AGENT GENERATIVE AI SYSTEM
+
+The system must use multiple agents (LLM-powered) working together.
+
+Minimum required agents:
+
+✔ Agent 1 — Data Ingestion & Preprocessing Agent
+
+Reads transaction logs (JSON, XML).
+
+Validates fields (LEI, ISIN, dates).
+
+Detects missing values.
+
+Outputs cleaned dataset + anomaly log.
+
+✔ Agent 2 — Regulatory Interpreter Agent (RAG-based)
+
+Reads regulatory texts (MiFID II, SEC reporting rules, etc.).
+
+Uses vector embeddings + Chroma DB.
+
+Answers:
+❗ Which rules apply to each trade?
+❗ What reporting items are required?
+
+Extracts obligations and constraints.
+
+✔ Agent 3 — Compliance Analyzer Agent
+
+Compares transactions vs. regulatory rules.
+
+Identifies compliance issues:
+
+Missing LEI
+
+Invalid ISIN
+
+T+1 reporting violations
+
+Wrong settlement dates
+
+Out-of-range prices/quantities
+
+✔ Agent 4 — Report Generator Agent
+
+Produces:
+
+XBRL format report
+
+PDF compliance report
+
+Summary explanation
+
+Uses GPT-4o to format narrative sections.
+
+✔ Agent 5 — Orchestrator Agent (LangGraph)
+
+Controls workflow from Agent1 → Agent4.
+
+Tracks errors.
+
+Returns a final compliance status.

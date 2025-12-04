@@ -1,0 +1,6 @@
+item_id,product_name,category,quantity,threshold,unit_price,supplier,warehouse
+SKU101,Laptop,Electronics,25,10,800,TechWorld,Warehouse A
+SKU102,Chair,Furniture,120,50,45,FurniCo,Warehouse B
+SKU103,Printer Ink,Office Supply,8,15,20,InkHouse,Warehouse A
+SKU104,Desk Lamp,Furniture,60,30,25,BrightCo,Warehouse C
+SKU105,USB Cable,Electronics,12,20,5,CableMart,Warehouse A
