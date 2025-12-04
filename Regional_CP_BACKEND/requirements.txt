@@ -1,0 +1,10 @@
+langgraph
+langchain
+langchain_openai
+pandas 
+pydantic 
+numpy
+chromadb 
+sentence_transformers
+pypdf
+langchain_community
